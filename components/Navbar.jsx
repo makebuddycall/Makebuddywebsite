@@ -13,6 +13,7 @@ const navLinks = [
   { href: "/contact", label: "Contact" },
   { href: "/privacy-policy", label: "Privacy Policy" },
   { href: "/terms-of-service", label: "Terms of Service" },
+  { href: "/data-safety", label: "Data Safety" },
 ];
 
 /* Full-screen mobile menu */
@@ -29,6 +30,7 @@ const companyLinks = [
   { href: "/contact", label: "Contact Details" },
   { href: "/privacy-policy", label: "Privacy Policy" },
   { href: "/terms-of-service", label: "Terms of Service" },
+  { href: "/data-safety", label: "Data Safety" },
 ];
 
 export default function Navbar({ dark = false }) {
@@ -97,7 +99,7 @@ export default function Navbar({ dark = false }) {
                   <Link
                     href={l.href}
                     aria-current={active ? "page" : undefined}
-                    className={`group relative whitespace-nowrap rounded-full px-3 py-2 text-[13px] font-medium transition-colors xl:px-4 ${
+                    className={`group relative whitespace-nowrap rounded-full px-2.5 py-2 text-[13px] font-medium transition-colors xl:px-3.5 ${
                       light
                         ? active ? "text-white" : "text-white/65 hover:text-white"
                         : active ? "text-ink" : "text-ink/55 hover:text-ink"
@@ -105,7 +107,7 @@ export default function Navbar({ dark = false }) {
                   >
                     {l.label}
                     <span
-                      className={`absolute inset-x-3 bottom-1 h-px origin-left transition-transform duration-500 ease-premium group-hover:scale-x-100 xl:inset-x-4 ${
+                      className={`absolute inset-x-2.5 bottom-1 h-px origin-left transition-transform duration-500 ease-premium group-hover:scale-x-100 xl:inset-x-3.5 ${
                         active ? "scale-x-100" : "scale-x-0"
                       } ${light ? "bg-lime-neon" : "bg-ink"}`}
                     />

@@ -25,7 +25,7 @@ const sections = [
         </p>
         <p>
           This Privacy Policy explains what information Make Buddy (&quot;we&quot;, &quot;us&quot;) collects, how we use it and
-          the choices you have. Please read it together with our <Link href="/terms-of-service">Terms of Service</Link>.
+          the choices you have. Please read it together with our <Link href="/terms-of-service">Terms of Service</Link>. For a quick summary, see our <Link href="/data-safety">Data Safety declaration</Link>.
         </p>
       </>
     ),

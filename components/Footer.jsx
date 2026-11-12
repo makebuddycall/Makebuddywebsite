@@ -26,6 +26,7 @@ const cols = [
     links: [
       { href: "/terms-of-service", label: "Terms of Service" },
       { href: "/privacy-policy", label: "Privacy Policy" },
+      { href: "/data-safety", label: "Data Safety" },
     ],
   },
 ];

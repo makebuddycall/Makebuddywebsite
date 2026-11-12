@@ -31,6 +31,7 @@ const companyLinks = [
   { href: "/privacy-policy", label: "Privacy Policy" },
   { href: "/terms-of-service", label: "Terms of Service" },
   { href: "/data-safety", label: "Data Safety" },
+  { href: "/delete-account", label: "Delete Account" },
 ];
 
 export default function Navbar({ dark = false }) {

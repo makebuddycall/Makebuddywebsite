@@ -393,6 +393,9 @@ export default function DataSafetyPage() {
                     requires it, then deleted.
                   </li>
                 </ul>
+                <Link href="/delete-account" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold underline decoration-lime-deep decoration-2 underline-offset-4">
+                  Read the full Account Deletion Policy <Icon name="arrowUpRight" className="h-4 w-4" />
+                </Link>
               </div>
             </section>
 

@@ -7,6 +7,8 @@ const nextConfig = {
       { source: "/privacy", destination: "/privacy-policy", permanent: true },
       { source: "/contact-us", destination: "/contact", permanent: true },
       { source: "/data-safety-declaration", destination: "/data-safety", permanent: true },
+      { source: "/account-deletion", destination: "/delete-account", permanent: true },
+      { source: "/delete-account-policy", destination: "/delete-account", permanent: true },
     ];
   },
 };

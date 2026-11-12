@@ -171,7 +171,7 @@ const sections = [
           <li>Withdraw consent at any time — for example for notifications, contacts or location.</li>
         </ul>
         <p>
-          You can do most of this in the app settings, or contact us through our <Link href="/contact">Contact Details</Link>{" "}
+          To delete your account, follow our <Link href="/delete-account">Account Deletion Policy</Link>. You can do most of the rest in the app settings, or contact us through our <Link href="/contact">Contact Details</Link>{" "}
           page or at <a href="mailto:privacy@makebuddy.app">privacy@makebuddy.app</a>.
         </p>
       </>
